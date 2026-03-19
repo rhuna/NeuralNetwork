@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# PyTorch / ML artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+artifacts/
+checkpoints/
+runs/
+logs/
+
+# =========================
+# Dataset / large files
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.h5
+*.npz
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Build / cache
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Matplotlib output (optional)
+# =========================
+training_curves.png
